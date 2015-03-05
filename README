@@ -1,0 +1,9 @@
+See section 4.1 and 4.4 of the Book Inverse Heat Transfer by Ozisik.
+
+## Observations - First
+
+- Requires all the boundary points in the objective function to converge, which does not make sense because ideally boundary itself is not known.
+
+- Without boundary points, it does not coverge to where it should.
+
+- Sensitivity with the selection of objective function, it its limited to place near inlet, its more better (dependence on exponential)
